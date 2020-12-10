@@ -1,0 +1,13 @@
+.main-wrap{
+    margin: 0 auto;
+    padding: 14rem 3rem 0 3rem;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50rem 50rem 50rem;
+    grid-gap: 3rem;
+}
+
+.main-item:nth-child(3){
+    grid-column: 1/1;
+}

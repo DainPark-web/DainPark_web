@@ -1,0 +1,37 @@
+/* **************header************** */
+.header-wrap{
+    margin:0 0;
+    width:100%;
+    padding:4rem 2rem;
+}
+
+.header-wrap > div > a{
+    font-size: 3.5rem;
+}
+
+.header-ul{
+    gap: 2.5rem;
+}
+
+.header-ul a{
+    font-size:1.8rem;
+}
+
+/* **************footer************** */
+
+.footer-wrap{
+    margin:0 auto;
+    width:100%;
+    height:50rem;
+    font-size: 3rem;
+    gap:5rem;
+    padding: 0 3rem;
+    padding-top: 5rem;
+    
+}
+
+
+
+.footer-wrap > div:nth-child(3){
+    padding-top: 4.5rem;
+}

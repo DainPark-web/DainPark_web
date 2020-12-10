@@ -1,0 +1,19 @@
+
+
+/* **************main************** */
+
+.main-wrap{
+    padding: 6rem 3rem 0rem 3rem;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50rem 50rem 50rem;
+    grid-gap: 14rem;
+}
+
+.main-item{
+    grid-template-columns: 1fr;
+    grid-template-rows: 30rem 1fr;
+}
+
+
+/* **************footer************** */

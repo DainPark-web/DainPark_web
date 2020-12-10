@@ -1,0 +1,100 @@
+/* **************header************** */
+.header-wrap{
+    margin:0 0;
+    width:100%;
+    padding:2rem 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    gap: 3rem;
+}
+
+
+
+.header-wrap > div > a{
+    font-size: 2rem;
+}
+
+.header-ul{
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    gap: 2rem;
+}
+
+.header-ul li{
+    display:block;
+    width:100%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.header-ul a{
+    font-size:2rem;
+}
+
+
+.header-ul li:hover{
+   
+    background:black;
+  
+}
+
+.header-ul li:hover a{
+    color:white;
+
+}
+
+
+.none{
+    display:block;
+}
+
+.menu{
+    display:block;
+    position: absolute;
+    top:2rem;
+    right:2rem;
+    color:black;
+    font-size: 2rem;
+}
+
+
+/* **************footer************** */
+
+.footer-wrap{
+    margin:0 auto;
+    width:100%;
+    height:40rem;
+    font-size: 2rem;
+    gap:5rem;
+    padding: 0 3rem;
+    padding-top: 5rem;
+    
+}
+
+.footer-wrap > div:nth-child(2) a{
+    color: var(--main-black-color);
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+    width:110px;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s ease-in;
+}
+
+.footer-wrap > div:nth-child(2) a:hover{
+    background:black;
+    color:white;
+}
+
+.footer-wrap > div:nth-child(3){
+    padding-top: 4rem;
+    display:flex;
+    justify-content: center;
+}

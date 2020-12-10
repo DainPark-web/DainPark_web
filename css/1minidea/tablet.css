@@ -1,0 +1,20 @@
+
+
+/* **************main************** */
+
+.main-wrap{
+    padding: 14rem 3rem 0rem 3rem;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70rem 70rem 70rem;
+    grid-gap: 14rem;
+}
+
+.main-item{
+    grid-template-columns: 1fr;
+    grid-template-rows: 40rem 1fr;
+}
+
+
+
+/* **************footer************** */

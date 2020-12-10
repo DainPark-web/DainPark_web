@@ -1,0 +1,33 @@
+
+
+/* **************color************** */
+
+:root{
+    --main-black-color: rgb(30, 30,30);
+}
+
+/* **************header************** */
+
+
+.main-wrap{
+    margin: 0 auto;
+    padding-top: 14rem;
+    width:110rem;
+    display:grid;
+    grid-template-columns: 1.5fr 2fr;
+    grid-template-rows: 50rem 50rem;
+    grid-gap: 3rem;
+}
+
+.main-item{
+    border: 2px solid black;
+}
+
+.main-item:nth-child(3){
+    grid-column: 1/3;
+}
+
+
+
+
+
